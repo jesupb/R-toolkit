@@ -11,6 +11,8 @@ shapiro.test(x1) # p-value = 0.44 --> cant reject H0
 shapiro.test(x2) # p-value  --> p-value 1.2e-10, so reject H0
 
 # anderson-darling test
+# Notice that by definition this test places more importance to the tails 
+# as per Klugman et al (Loss Models)
 library(nortest)
 
 ad.test(x1)
